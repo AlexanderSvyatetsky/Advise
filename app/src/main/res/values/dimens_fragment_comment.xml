@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--margins-->
+    <dimen name="fragment_comment_margin_left_and_right">8dp</dimen>
+    <dimen name="fragment_comment_margin_top_and_bottom">10dp</dimen>
+    <dimen name="fragment_comment_margin_to_frame">20dp</dimen>
+
+    <dimen name="fragment_comment_margin_edit_text_right">30dp</dimen>
+    <dimen name="fragment_comment_heigth_and_width_send_image">30dp</dimen>
+
+    <dimen name="fragment_comment_button_size">42dp</dimen>
+
+    <!--padding-->
+    <dimen name="fragment_comment_padding_left_and_right">8dp</dimen>
+    <dimen name="fragment_comment_padding_top_and_bottom">10dp</dimen>
+    <dimen name="fragment_comment_padding_button">5dp</dimen>
+
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/navigation_item_new"
+            android:title="@string/item_new"
+            android:icon="@drawable/ic_fiber_new_black_48dp"/>
+        <item
+            android:id="@+id/navigation_item_best"
+            android:title="@string/item_best"
+            android:icon="@drawable/ic_stars_black_48dp"/>
+        <item
+            android:id="@+id/navigation_item_mostdiscussed"
+            android:title="@string/item_mostdisscussed"
+            android:icon="@drawable/ic_chat_black_48dp"/>
+        <item
+            android:id="@+id/navigation_item_notifications"
+            android:title="@string/item_notifications"
+            android:icon="@drawable/ic_notifications_black_48dp"/>
+    </group>
+
+    <group
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/item_language"
+            android:title="@string/item_language"
+            android:icon="@drawable/ic_language_black_48dp"/>
+        <item
+            android:id="@+id/item_about"
+            android:title="@string/item_about"
+            android:icon="@drawable/ic_info_outline_black_48dp"/>
+    </group>
+
+</menu>

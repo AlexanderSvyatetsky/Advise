@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_notification_menu_button_title">Очистить</string>
+
+    <string name="fragment_notification_new_article_comments">новые комментарии поста</string>
+    <string name="fragment_notification_new_comment_below">новые комментарии под ответом</string>
+
+    <string name="fragment_notification_articles_comments">новые</string>
+    <string name="fragment_notification_no_notification">нет уведомлений</string>
+
+    <string name="fragment_notification_delete_button">очистить</string>
+</resources>

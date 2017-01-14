@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/fragment_feed_article_layout"
+    android:layout_marginLeft="@dimen/fragment_feed_article_margin_left_and_right"
+    android:layout_marginRight="@dimen/fragment_feed_article_margin_left_and_right"
+    android:layout_marginTop="@dimen/fragment_feed_article_margin_top_and_bottom"
+    android:layout_marginBottom="@dimen/fragment_feed_article_margin_top_and_bottom"
+    android:background="@drawable/element_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="Article name"
+        android:textSize="@dimen/string_size_medium_titles"
+        android:layout_marginTop="@dimen/fragment_feed_margin_to_frame"
+        android:layout_marginLeft="@dimen/fragment_feed_margin_to_frame"
+        android:layout_marginRight="@dimen/fragment_feed_margin_to_frame"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="body body body body body body body body body body body"
+        android:textSize="@dimen/string_size_body"
+        android:layout_below="@id/title"
+        android:id="@+id/body"
+        android:layout_marginTop="@dimen/fragment_feed_margin_to_frame"
+        android:layout_marginLeft="@dimen/fragment_feed_margin_to_frame"
+        android:layout_marginRight="@dimen/fragment_feed_margin_to_frame"/>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/body"
+        android:id="@+id/downinfo_layout">
+        <ImageView
+            android:layout_width="@dimen/fragment_feed_downicons_width_and_height"
+            android:layout_height="@dimen/fragment_feed_downicons_width_and_height"
+
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/ic_mode_comment_black_48dp"
+            android:layout_marginLeft="@dimen/fragment_feed_downicons_margin_left"
+            android:layout_marginTop="@dimen/fragment_feed_downicons_margin_top"
+            android:id="@+id/comments_imageview"
+            android:layout_marginBottom="@dimen/fragment_feed_margin_to_frame"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textSize="@dimen/string_size_accompany_info"
+            android:layout_toRightOf="@id/comments_imageview"
+            android:layout_marginTop="@dimen/fragment_feed_downinfo_margin_top"
+            android:layout_marginLeft="@dimen/fragment_feed_downinfo_margin_left_or_right"
+            android:id="@+id/down_text"/>
+
+
+        <!-- -->
+
+        <ImageView
+            android:layout_width="@dimen/fragment_feed_downicons_width_and_height"
+            android:layout_height="@dimen/fragment_feed_downicons_width_and_height"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_thumb_up_black_48dp"
+            android:layout_marginRight="@dimen/fragment_feed_downicons_margin_left"
+            android:layout_marginTop="@dimen/fragment_feed_downicons_margin_top"
+            android:id="@+id/likes_imageview"
+            android:layout_marginBottom="@dimen/fragment_feed_margin_to_frame"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="28"
+            android:textSize="@dimen/string_size_accompany_info"
+            android:layout_toLeftOf="@id/likes_imageview"
+            android:layout_marginTop="@dimen/fragment_feed_downinfo_margin_top"
+            android:layout_marginRight="@dimen/fragment_feed_downinfo_margin_left_or_right"
+            android:id="@+id/likes_number"/>
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/downinfo_layout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tags_linear_layout"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/fragment_feed_tags_layout_margin_top"
+            android:layout_marginBottom="@dimen/fragment_feed_tags_layput_margin_bottom">
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMainBackground">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialogfragment_createacrticleactivity_title"
+        android:textSize="@dimen/string_size_medium_titles"
+        android:textColor="@color/colorTextAccentText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_top_bottom_screen_margins"
+        android:layout_marginBottom="@dimen/dimen_top_bottom_screen_margins"
+        android:layout_marginLeft="@dimen/dimen_left_right_screen_margins"
+        android:layout_marginRight="@dimen/dimen_left_right_screen_margins"/>
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_light"
+        android:text="@string/dialogfragment_createacrticleactivity_cancel"
+        android:textSize="@dimen/string_size_button"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/title"/>
+
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_danger"
+        android:text="@string/dialogfragment_createacrticleactivity_ok"
+        android:textSize="@dimen/string_size_button"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/title"/>
+
+</RelativeLayout>

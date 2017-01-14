@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_notification_menu_button_title">Clear all</string>
+
+    <string name="fragment_notification_new_article_comments">new article comments</string>
+    <string name="fragment_notification_new_comment_below">new comment responses</string>
+
+    <string name="fragment_notification_articles_comments">new</string>
+    <string name="fragment_notification_no_notification">no notifications</string>
+
+    <string name="fragment_notification_delete_button">clear</string>
+</resources>

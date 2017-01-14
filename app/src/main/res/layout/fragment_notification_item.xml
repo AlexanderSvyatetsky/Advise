@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/notification_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:background="@drawable/button_light"
+    android:paddingTop="@dimen/fragment_notification_margin_top">
+
+    <RelativeLayout
+        android:id="@+id/internal_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fragment_notification_margin_to_frame">
+
+        <RelativeLayout
+            android:id="@+id/bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/mark"
+                android:layout_width="@dimen/fragment_notification_image_height_and_width"
+                android:layout_height="@dimen/fragment_notification_image_height_and_width"
+                android:layout_marginRight="@dimen/fragment_notification_element_distance"
+                android:background="@drawable/ic_mail_outline_black_48dp"
+                android:layout_centerVertical="true"/>
+
+
+            <TextView
+                android:id="@+id/article_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/mark"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/string_size_accompany_info"
+                android:textColor="@color/colorTextAccentText"
+                tools:text="article name"
+                android:layout_marginRight="@dimen/fragment_notification_margin_to_frame"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/down_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Article name"
+            android:textColor="@color/colorTextExtraInfo"
+            android:textSize="@dimen/string_size_body"
+            android:layout_below="@id/bottom_layout"
+            android:layout_marginRight="@dimen/fragment_notification_margin_to_frame"/>
+    </RelativeLayout>
+
+
+
+
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_notification_divider_height"
+        android:layout_below="@id/internal_layout"
+        android:layout_marginBottom="@dimen/fragment_notification_divider_margin_top_and_bottom"
+        android:layout_marginTop="@dimen/fragment_notification_divider_margin_top_and_bottom"
+        android:background="@android:color/darker_gray" />
+
+</RelativeLayout>

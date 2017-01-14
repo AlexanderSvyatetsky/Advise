@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_fragment_search_mandatory_tags"
+                android:textSize="@dimen/string_small_contrast_free_info"
+                android:layout_marginTop="@dimen/dimen_top_bottom_screen_margins"
+                android:layout_marginBottom="@dimen/dimen_top_bottom_screen_margins"
+                android:layout_marginLeft="@dimen/dimen_left_right_screen_margins"
+                android:layout_marginRight="@dimen/dimen_left_right_screen_margins"/>
+
+            <ua.dreambim.advise.custom_views.FlowLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_search_mandatory_tags_layout"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_fragment_search_top_tags"
+                android:textSize="@dimen/string_small_contrast_free_info"
+                android:layout_marginTop="@dimen/dimen_top_bottom_screen_margins"
+                android:layout_marginBottom="@dimen/dimen_top_bottom_screen_margins"
+                android:layout_marginLeft="@dimen/dimen_left_right_screen_margins"
+                android:layout_marginRight="@dimen/dimen_left_right_screen_margins"/>
+
+            <ua.dreambim.advise.custom_views.FlowLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragment_search_custom_tags_layout"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

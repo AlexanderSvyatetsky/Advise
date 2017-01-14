@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMainBackground">
+
+    <ua.dreambim.advise.custom_views.BottomDetectScrollView
+        android:id="@+id/comments_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/new_comment_field"
+        android:background="@color/colorMainBackground">
+
+        <LinearLayout
+            android:id="@+id/fragment_feed_comment_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+    </ua.dreambim.advise.custom_views.BottomDetectScrollView>
+
+    <RelativeLayout
+        android:id="@+id/new_comment_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorElementBackground"
+        android:paddingBottom="@dimen/fragment_comment_padding_top_and_bottom"
+        android:paddingLeft="@dimen/fragment_comment_padding_left_and_right"
+        android:paddingRight="@dimen/fragment_comment_padding_left_and_right"
+        android:paddingTop="@dimen/fragment_comment_padding_top_and_bottom">
+
+        <ImageView
+            android:id="@+id/send_imageview"
+            android:layout_width="@dimen/fragment_comment_heigth_and_width_send_image"
+            android:layout_height="@dimen/fragment_comment_heigth_and_width_send_image"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_send_black_48dp" />
+
+        <EditText
+            android:id="@+id/comment_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/fragment_comment_margin_edit_text_right"
+            android:layout_toLeftOf="@+id/send_imageview"
+            android:background="@null"
+            android:hint="Comment"
+            android:inputType="text|textCapSentences|textAutoCorrect|textMultiLine"
+            android:maxLines="4" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/no_comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_comments"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/string_small_contrast_free_info"
+        android:textColor="@color/colorTextExtraInfo"
+        android:visibility="gone"/>
+
+</RelativeLayout>

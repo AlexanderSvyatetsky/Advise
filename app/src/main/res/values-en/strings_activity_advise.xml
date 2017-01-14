@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_advise_toolbar_search">search tags</string>
+
+    <string name="item_new">New</string>
+    <string name="item_best">Best</string>
+    <string name="item_mostdisscussed">Most discussed</string>
+    <string name="item_notifications">Notifications</string>
+    <string name="item_language">Language</string>
+    <string name="item_about">About</string>
+</resources>

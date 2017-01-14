@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tag_mandatory_background"
+        android:text="tag"
+        android:textColor="@color/colorTextForAccentBackground"
+        android:textSize="@dimen/tag_text_size"
+        android:layout_marginLeft="@dimen/tag_margin_left"
+        android:layout_marginRight="@dimen/tag_margin_right"
+        android:layout_marginTop="@dimen/tag_margin_top"
+        android:layout_marginBottom="@dimen/tag_margin_bottom"
+        android:paddingTop="@dimen/tag_padding_top"
+        android:paddingBottom="@dimen/tag_padding_bottom"
+        android:paddingRight="@dimen/tag_padding_right"
+        android:paddingLeft="@dimen/tag_padding_left"/>
+
+</LinearLayout>

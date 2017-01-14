@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="app_name">Советчик</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="no_comments">комментариев нет</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="strings_mandatory_tags_array">
+        <item>жизнь</item>
+        <item>вопрос</item>
+        <item>еда</item>
+        <item>любовь</item>
+        <item>путешествие</item>
+        <item>игра</item>
+        <item>работа</item>
+    </string-array>
+
+    <string-array name="strings_languages">
+        <item>Английский</item>
+        <item>Русский</item>
+    </string-array>
+</resources>

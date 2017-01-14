@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tags_background_radius">3dip</dimen>
+    <dimen name="tags_background_padding">0dip</dimen>
+    <dimen name="tags_background_stroke_width">3dip</dimen>
+</resources>

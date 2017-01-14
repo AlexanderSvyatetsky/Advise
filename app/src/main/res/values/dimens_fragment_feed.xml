@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="fragment_feed_margin_to_frame">20dp</dimen>
+    <dimen name="fragment_feed_article_margin_left_and_right">8dp</dimen>
+    <dimen name="fragment_feed_article_margin_top_and_bottom">10dp</dimen>
+
+    <dimen name="fragment_feed_downicons_width_and_height">35dp</dimen>
+    <dimen name="fragment_feed_downicons_margin_left">30dp</dimen>
+    <dimen name="fragment_feed_downicons_margin_top">30dp</dimen>
+
+    <dimen name="fragment_feed_downinfo_margin_top">35dp</dimen>
+    <dimen name="fragment_feed_downinfo_margin_left_or_right">10dp</dimen>
+
+    <dimen name="fragment_feed_tags_layout_margin_top">4dp</dimen>
+    <dimen name="fragment_feed_tags_layput_margin_bottom">10dp</dimen>
+
+    <dimen name="fragment_feed_floatingbutton_margin">16dp</dimen>
+
+</resources>

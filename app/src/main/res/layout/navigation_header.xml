@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/button_dark"
+    android:id="@+id/activity_advise_header_layout"
+    android:clickable="true">
+
+    <ua.dreambim.advise.custom_views.RoundedImageView
+        android:layout_width="@dimen/activity_advise_header_useravatar_size"
+        android:layout_height="@dimen/activity_advise_header_useravatar_size"
+        android:layout_marginBottom="@dimen/activity_advise_header_useravatar_marginbottom"
+        android:src="@drawable/default_avatar"
+        android:id="@+id/activity_advise_useravatar_imageview"
+        android:layout_alignParentLeft="true"
+        android:duplicateParentState="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorTextForAccentBackground"
+        android:textSize="@dimen/activity_advise_header_username_textsize"
+        android:id="@+id/activity_advise_username_textview"
+        android:layout_below="@id/activity_advise_useravatar_imageview"
+        android:duplicateParentState="true"/>
+
+    <ImageView
+        android:id="@+id/activity_advise_action_imageview"
+        android:src="@drawable/ic_person_add_white_48dp"
+        android:layout_width="@dimen/activity_advise_header_action_imageview_size"
+        android:layout_height="@dimen/activity_advise_header_action_imageview_size"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:duplicateParentState="true"/>
+
+</RelativeLayout>

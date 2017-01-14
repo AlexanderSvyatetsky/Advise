@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_userprofile_edittext_hint">nickname</string>
+    <string name="activity_userprofile_toolbar_title">logout</string>
+
+    <string name="activity_userprofile_articles">ARTICLES</string>
+    <string name="activity_userprofile_likes">LIKES</string>
+    <string name="activity_userprofile_liked">LIKED</string>
+</resources>

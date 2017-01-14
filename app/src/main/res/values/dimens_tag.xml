@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tag_padding_top">5dp</dimen>
+    <dimen name="tag_padding_bottom">5dp</dimen>
+    <dimen name="tag_padding_left">5dp</dimen>
+    <dimen name="tag_padding_right">5dp</dimen>
+
+    <dimen name="tag_margin_top">3dp</dimen>
+    <dimen name="tag_margin_bottom">3dp</dimen>
+    <dimen name="tag_margin_left">4dp</dimen>
+    <dimen name="tag_margin_right">4dp</dimen>
+
+    <dimen name="tag_text_size">18dp</dimen>
+</resources>

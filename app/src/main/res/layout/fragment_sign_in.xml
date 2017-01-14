@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/nickname_external_layout"
+        android:layout_width="@dimen/fragment_sign_edittext_width"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/password_external_layout"
+        android:layout_marginBottom="@dimen/fragment_sign_elements_margin_bottom">
+        <EditText
+            android:id="@+id/fragment_sign_nickname_or_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/string_size_accompany_info"
+            android:textColor="@color/colorTextAccentText"
+            android:hint="@string/fragment_sign_nickname_or_email"
+            android:inputType="textNoSuggestions"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@id/password_external_layout"
+        android:layout_width="@dimen/fragment_sign_edittext_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/fragment_sign_elements_margin_bottom"
+        android:layout_centerInParent="true">
+        <EditText
+            android:id="@+id/fragment_sign_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fragment_sign_password"
+            android:textSize="@dimen/string_size_accompany_info"
+            android:textColor="@color/colorTextAccentText"
+            android:inputType="textPassword"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/restorepassword_button"
+        android:layout_width="@dimen/activity_sign_resorepassword_button_size"
+        android:layout_height="@dimen/activity_sign_resorepassword_button_size"
+        android:src="@drawable/ic_create_black_48dp"
+        android:background="@drawable/button_light"
+        android:layout_toRightOf="@id/password_external_layout"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/activity_sign_resorepassword_button_margin_left"
+        android:padding="@dimen/activity_sign_resorepassword_button_padding"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/password_external_layout">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_sign_button_ok"
+            android:text="@string/fragment_sign_ok"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_sign_button_sign_up"
+            android:text="@string/fragment_sign_signup"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

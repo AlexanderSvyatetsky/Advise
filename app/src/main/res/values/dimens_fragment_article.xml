@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--margins-->
+    <dimen name="fragment_article_margin_to_frame">10dp</dimen>
+    <dimen name="fragment_article_margin_left_and_right">4dp</dimen>
+    <dimen name="fragment_article_margin_top_and_bottom">10dp</dimen>
+
+    <dimen name="fragment_article_margin_bottom_topinfo">8dp</dimen>
+
+    <dimen name="fragment_article_tags_layout_margin_top">4dp</dimen>
+    <dimen name="fragment_article_tags_layout_margin_bottom">10dp</dimen>
+
+    <dimen name="fragment_article_downicons_margin_left">30dp</dimen>
+    <dimen name="fragment_article_downicons_margin_top">30dp</dimen>
+
+    <dimen name="fragment_article_downinfo_margin_top">35dp</dimen>
+    <dimen name="fragment_article_downinfo_margin_left_or_right">10dp</dimen>
+
+    <!--imageSizes-->
+    <dimen name="fragment_article_height_and_width_image">52dp</dimen>
+    <dimen name="fragment_article_height_and_width_avatar">60dp</dimen>
+    <dimen name="fragment_article_buttons_padding">7dp</dimen>
+    <dimen name="fragment_article_delete_button_size">45dp</dimen>
+
+
+
+    
+</resources>

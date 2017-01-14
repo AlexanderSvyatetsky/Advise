@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_about_text">DreamBim, 2017</string>
+
+    <string name="fragment_about_app_text">этот текст объясняет главную идею приложения. этот текст объясняет главную идею приложения</string>
+</resources>

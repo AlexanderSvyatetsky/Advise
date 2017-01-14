@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:id="@+id/articles_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorMainBackground"
+            android:animateLayoutChanges="true"/>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorMainBackground">
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|enterAlways">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/top_background_imageview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@color/colorPrimary"/>
+
+                <ua.dreambim.advise.custom_views.RoundedImageView
+                    android:id="@+id/avatar_imageview"
+                    android:layout_width="@dimen/activity_userprofile_avatar_size"
+                    android:layout_height="@dimen/activity_userprofile_avatar_size"
+                    android:src="@drawable/default_avatar"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/activity_userprofile_avatar_margin_top"/>
+
+                <TextView
+                    android:id="@+id/nickname_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/avatar_imageview"
+                    android:textSize="@dimen/string_size_large_title"
+                    android:textColor="@color/colorTextAccentText"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/activity_userprofile_textlayout_margin_top"
+                    tools:text="bob"/>
+
+                <RelativeLayout
+                    android:id="@+id/downinfo_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/nickname_textview"
+                    android:layout_marginLeft="@dimen/activity_userprofile_textlayout_margin"
+                    android:layout_marginRight="@dimen/activity_userprofile_textlayout_margin"
+                    android:layout_marginTop="@dimen/activity_userprofile_textlayout_margin_top">
+
+                    <LinearLayout
+                        android:id="@+id/articlesnumber_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center_horizontal"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/button_light">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/string_size_accompany_info"
+                            android:textColor="@color/colorTextExtraInfo"
+                            android:text="@string/activity_userprofile_articles"/>
+
+
+                        <TextView
+                            android:id="@+id/articlestotal_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/string_size_accompany_info"
+                            android:textColor="@color/colorTextExtraInfo"
+                            tools:text="12"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/likednumber_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:orientation="vertical"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/button_light">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/string_size_accompany_info"
+                            android:textColor="@color/colorTextExtraInfo"
+                            android:text="@string/activity_userprofile_liked"/>
+
+                        <TextView
+                            android:id="@+id/articlesliked_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/string_size_accompany_info"
+                            android:textColor="@color/colorTextExtraInfo"
+                            tools:text="1200000"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:orientation="vertical"
+                        android:gravity="center_horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/string_size_accompany_info"
+                            android:textColor="@color/colorTextExtraInfo"
+                            android:text="@string/activity_userprofile_likes"/>
+
+                        <TextView
+                            android:id="@+id/articleslikes_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/string_size_accompany_info"
+                            android:textColor="@color/colorTextExtraInfo"
+                            tools:text="1200000"/>
+
+                    </LinearLayout>
+
+
+
+                </RelativeLayout>
+            </RelativeLayout>
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

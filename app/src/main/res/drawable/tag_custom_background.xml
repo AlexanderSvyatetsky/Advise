@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/colorCustomTagBackground"/>
+    <corners android:radius="@dimen/tags_background_radius"/>
+    <padding android:left="@dimen/tags_background_padding" android:bottom="@dimen/tags_background_padding"
+        android:right="@dimen/tags_background_padding" android:top="@dimen/tags_background_padding"/>
+
+</shape>

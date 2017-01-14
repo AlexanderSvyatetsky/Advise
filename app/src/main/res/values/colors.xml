@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- DO NOT CHANGE BY YOURSELF! Contains only main app color palette  -->
+<!-- create own color_ file for new UI element -->
+
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#1E3C47</color>
+
+    <color name="colorDanger">#C84226</color>
+
+    <color name="colorMandatoryTagBackground">#C84226</color>
+    <color name="colorCustomTagBackground">#1E18A3</color>
+
+    <color name="colorMainBackground">#C5CAE9</color>
+    <color name="colorElementBackground">#FFFFFF</color> <!-- this is 1st background of any UI element.
+                                    For example: on feed fragment we have main background
+                                     of the page and each article has it's own background,
+                                     so this color is for those each article's back.
+                                     YOU HAVE TO USE IT FOR ANY MENU WITH MINIMAL PADDING-->
+
+    <color name="colorTextExtraInfo">#757575</color>
+    <color name="colorTextAccentText">#212121</color>
+    <color name="colorTextLight">#999999</color>
+    <color name="colorTextForAccentBackground">#FFFFFF</color>
+</resources>

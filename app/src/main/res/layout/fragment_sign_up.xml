@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/email_external_layout"
+        android:layout_width="@dimen/fragment_sign_edittext_width"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/nickname_external_layout"
+        android:layout_marginBottom="@dimen/fragment_sign_elements_margin_bottom">
+        <EditText
+            android:id="@+id/fragment_sign_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fragment_sign_email"
+            android:textSize="@dimen/string_size_accompany_info"
+            android:textColor="@color/colorTextAccentText"
+            android:inputType="textEmailAddress"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@id/nickname_external_layout"
+        android:layout_width="@dimen/fragment_sign_edittext_width"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/password_external_layout"
+        android:layout_marginBottom="@dimen/fragment_sign_elements_margin_bottom">
+        <EditText
+            android:id="@+id/fragment_sign_nickname"
+            android:layout_width="@dimen/fragment_sign_edittext_width"
+            android:layout_height="wrap_content"
+            android:hint="@string/fragment_sign_nickname"
+            android:textSize="@dimen/string_size_accompany_info"
+            android:textColor="@color/colorTextAccentText"
+            android:inputType="textNoSuggestions"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@id/password_external_layout"
+        android:layout_width="@dimen/fragment_sign_edittext_width"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/fragment_sign_elements_margin_bottom">
+        <EditText
+            android:id="@+id/fragment_sign_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fragment_sign_password"
+            android:textSize="@dimen/string_size_accompany_info"
+            android:textColor="@color/colorTextAccentText"
+            android:inputType="textPassword"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/confirmpassword_external_layout"
+        android:layout_width="@dimen/fragment_sign_edittext_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/fragment_sign_elements_margin_bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/password_external_layout">
+        <EditText
+            android:id="@+id/fragment_sign_confirmpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fragment_sign_confirmpassword"
+            android:textSize="@dimen/string_size_accompany_info"
+            android:textColor="@color/colorTextAccentText"
+            android:inputType="textPassword"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/confirmpassword_external_layout">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_sign_button_ok"
+            android:text="@string/fragment_sign_ok"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_sign_button_sign_in"
+            android:text="@string/fragment_sign_signin"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

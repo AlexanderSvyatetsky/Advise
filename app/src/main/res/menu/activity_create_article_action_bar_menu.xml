@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/ic_check_white_48dp"
+        android:title="@string/create_article_activity_save_button_title"
+        app:showAsAction="ifRoom"/>
+
+</menu>

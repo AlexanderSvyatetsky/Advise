@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/colorMainBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/notification_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/no_notifications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_notification_no_notification"
+            android:textSize="@dimen/string_small_contrast_free_info"
+            android:textColor="@color/colorTextExtraInfo"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/dimen_left_right_screen_margins"/>
+
+        <RelativeLayout
+            android:id="@+id/notifications_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/delete_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fragment_notification_delete_button"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/button_light"
+                android:layout_alignParentRight="true"/>
+
+            <TextView
+                android:id="@+id/new_article_comments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_top_bottom_screen_margins"
+                android:layout_marginLeft="@dimen/dimen_left_right_screen_margins"
+                android:layout_marginRight="@dimen/dimen_left_right_screen_margins"
+                android:layout_marginTop="@dimen/dimen_top_bottom_screen_margins"
+                android:text="@string/fragment_notification_new_article_comments"
+                android:textSize="@dimen/string_small_contrast_free_info"
+                android:textColor="@color/colorTextExtraInfo"
+                android:layout_below="@id/delete_button"/>
+
+            <LinearLayout
+                android:id="@+id/notifications_new_article_comments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="@dimen/fragment_notification_margin_between_notify_types"
+                android:layout_below="@id/new_article_comments"/>
+
+            <TextView
+                android:id="@+id/new_comments_under_comments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_top_bottom_screen_margins"
+                android:layout_marginLeft="@dimen/dimen_left_right_screen_margins"
+                android:layout_marginRight="@dimen/dimen_left_right_screen_margins"
+                android:layout_marginTop="@dimen/dimen_top_bottom_screen_margins"
+                android:text="@string/fragment_notification_new_comment_below"
+                android:textSize="@dimen/string_small_contrast_free_info"
+                android:textColor="@color/colorTextExtraInfo"
+                android:layout_below="@id/notifications_new_article_comments"/>
+
+            <LinearLayout
+                android:id="@+id/notifications_new_comments_below"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/new_comments_under_comments"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

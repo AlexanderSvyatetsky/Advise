@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="activity_create_article_input_name_length">80</integer>
+    <integer name="activity_create_article_input_text_length">4096</integer>
+    <integer name="activity_create_article_input_tag_length">300</integer>
+    <integer name="activity_create_article_input_tag_number">10</integer>
+    <integer name="activity_create_article_input_text_max_length">50</integer>
+    <integer name="activity_create_article_input_text_min_length">8</integer>
+
+</resources>

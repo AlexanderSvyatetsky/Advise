@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fragment_about_logo_size">170dp</dimen>
+    <dimen name="fragment_about_padding_left_right">50dp</dimen>
+    <dimen name="fragment_about_padding_top_bottom">30dp</dimen>
+</resources>

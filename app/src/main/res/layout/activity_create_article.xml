@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/rootScrollViewId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout
+            android:id="@+id/activity_create_article_layout_id"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/activity_create_article_article_name_input_layout_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/activity_create_article_article_name_input_view_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/create_article_activity_article_name_hint_text"
+                    android:inputType="text"
+                    android:maxLength="@integer/activity_create_article_input_name_length"
+                    android:maxLines="1" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/activity_create_article_article_text_input_layout_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/activity_create_article_article_name_input_layout_id">
+
+                <EditText
+                    android:id="@+id/activity_create_article_article_text_input_view_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minLines="@integer/activity_create_article_input_text_min_length"
+                    android:maxLength="@integer/activity_create_article_input_text_length"
+                    android:maxLines="@integer/activity_create_article_input_text_max_length"
+                    android:gravity="top"
+                    android:hint="@string/create_article_activity_article_text_hint"
+                    android:inputType="textMultiLine|textCapSentences"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <ua.dreambim.advise.custom_views.TagsAutoCompleteTextView
+                android:id="@+id/activity_create_article_article_tags_input_id"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:hint="@string/create_article_activity_enter_tags_hint_text"
+                android:maxLines="3"
+                android:layout_below="@id/activity_create_article_article_text_input_layout_id">
+            </ua.dreambim.advise.custom_views.TagsAutoCompleteTextView>
+
+
+            <ScrollView
+                android:id="@+id/activity_create_article_tags_scroll_view_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_below="@id/activity_create_article_article_tags_input_id">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dimen_top_bottom_screen_margins"
+                        android:layout_marginLeft="@dimen/dimen_left_right_screen_margins"
+                        android:layout_marginRight="@dimen/dimen_left_right_screen_margins"
+                        android:layout_marginTop="@dimen/dimen_top_bottom_screen_margins"
+                        android:text="@string/string_fragment_search_mandatory_tags"
+                        android:textSize="@dimen/string_small_contrast_free_info" />
+
+                    <ua.dreambim.advise.custom_views.FlowLayout
+                        android:id="@+id/activity_create_article_mandatory_tags_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </ua.dreambim.advise.custom_views.FlowLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dimen_top_bottom_screen_margins"
+                        android:layout_marginLeft="@dimen/dimen_left_right_screen_margins"
+                        android:layout_marginRight="@dimen/dimen_left_right_screen_margins"
+                        android:layout_marginTop="@dimen/dimen_top_bottom_screen_margins"
+                        android:text="@string/string_fragment_search_top_tags"
+                        android:textSize="@dimen/string_small_contrast_free_info" />
+
+                    <ua.dreambim.advise.custom_views.FlowLayout
+                        android:id="@+id/activity_create_article_top_tags_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </ua.dreambim.advise.custom_views.FlowLayout>
+                </LinearLayout>
+            </ScrollView>
+
+        </RelativeLayout>
+    </ScrollView>
+<!-- </ua.dreambim.advise.custom_views.VerticalScrollView>-->

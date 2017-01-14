@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_sign_nickname">никнейм</string>
+    <string name="fragment_sign_email">email</string>
+    <string name="fragment_sign_nickname_or_email">никнейм</string>
+    <string name="fragment_sign_password">пароль</string>
+    <string name="fragment_sign_confirmpassword">подтвердите пароль</string>
+
+    <string name="fragment_sign_ok">ок</string>
+    <string name="fragment_sign_signup">регистрация</string>
+    <string name="fragment_sign_signin">авторизация</string>
+
+    <string name="fragment_sign_restorepassword">введите email для восстановления пароля</string>
+</resources>

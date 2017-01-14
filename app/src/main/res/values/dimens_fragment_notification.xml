@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--sizes-->
+    <dimen name="fragment_notification_image_height_and_width">22dp</dimen>
+
+    <!--margins-->
+    <dimen name="fragment_notification_margin_to_frame">15dp</dimen>
+    <dimen name="fragment_notification_margin_top">16dp</dimen>
+    <dimen name="fragment_notification_margin_between_notify_types">35dp</dimen>
+    <dimen name="fragment_notification_element_distance">10dp</dimen>
+
+    <!--divider-->
+    <dimen name="fragment_notification_divider_height">0.5dp</dimen>
+    <dimen name="fragment_notification_divider_margin_top_and_bottom">8dp</dimen>
+
+</resources>

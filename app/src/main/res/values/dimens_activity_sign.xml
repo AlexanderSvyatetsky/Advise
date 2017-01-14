@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_sign_textview_margin_left_right">65dp</dimen>
+
+    <dimen name="activity_sign_resorepassword_button_margin_left">10dp</dimen>
+    <dimen name="activity_sign_resorepassword_button_padding">4dp</dimen>
+
+    <dimen name="activity_sign_resorepassword_button_size">35dp</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_article_activity_article_name_hint_text">Название</string>
+    <string name="create_article_activity_article_text_hint">Текст</string>
+    <string name="create_article_activity_article_tags_hint">Теги</string>
+    <string name="create_article_activity_label">Создать</string>
+    <string name="create_article_activity_save_button_title">Сохранить</string>
+    <string name="create_article_activity_entered_the_same_text_message">Уже есть</string>
+    <string name="create_article_activity_enter_tags_hint_text">Разделяйте теги комой или пробелом</string>
+
+    <string name="dialogfragment_createacrticleactivity_title">Уверены, что хотите вернуться назад?</string>
+    <string name="dialogfragment_createacrticleactivity_ok">ок</string>
+    <string name="dialogfragment_createacrticleactivity_cancel">отменить</string>
+</resources>

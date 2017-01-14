@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_userprofile_avatar_size">120dp</dimen>
+    <dimen name="activity_userprofile_avatar_margin_top">30dp</dimen>
+
+    <dimen name="activity_userprofile_textlayout_margin">10dp</dimen>
+    <dimen name="activity_userprofile_textlayout_margin_top">10dp</dimen>
+
+    <dimen name="activity_userprofile_edittext_size">115dp</dimen>
+    <dimen name="activity_userprofile_ok_button_size">45dp</dimen>
+
+</resources>

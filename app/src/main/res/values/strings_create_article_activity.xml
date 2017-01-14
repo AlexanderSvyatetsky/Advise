@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create_article_activity_article_name_hint_text">Article Name</string>
+    <string name="create_article_activity_article_text_hint">Article Text</string>
+    <string name="create_article_activity_article_tags_hint">Article Tags</string>
+    <string name="create_article_activity_label">Create Article</string>
+    <string name="create_article_activity_save_button_title">Save</string>
+    <string name="create_article_activity_entered_the_same_text_message">This tag have already entered. Try another tag.</string>
+    <string name="create_article_activity_enter_tags_hint_text">Separate tags by comma, enter or space symbol.</string>
+
+    <string name="dialogfragment_createacrticleactivity_title">are you sure you want to get back?</string>
+    <string name="dialogfragment_createacrticleactivity_ok">ok</string>
+    <string name="dialogfragment_createacrticleactivity_cancel">cancel</string>
+</resources>

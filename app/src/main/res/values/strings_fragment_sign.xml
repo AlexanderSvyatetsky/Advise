@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_sign_nickname">nickname</string>
+    <string name="fragment_sign_email">email</string>
+    <string name="fragment_sign_nickname_or_email">nickname</string>
+    <string name="fragment_sign_password">password</string>
+    <string name="fragment_sign_confirmpassword">confirm password</string>
+
+    <string name="fragment_sign_ok">ok</string>
+    <string name="fragment_sign_signup">sign up</string>
+    <string name="fragment_sign_signin">sign in</string>
+
+    <string name="fragment_sign_restorepassword">enter email to restore password</string>
+</resources>
