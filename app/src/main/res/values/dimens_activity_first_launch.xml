@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_first_launch_margin">16dp</dimen>
+    <dimen name="activity_first_launch_margin_top">16dp</dimen>
+
+    <dimen name="activity_first_launch_padding">8dp</dimen>
+
+    <!--images size-->
+    <dimen name="activity_first_launch_image_height_and_weight">200dp</dimen>
+
+
+</resources>

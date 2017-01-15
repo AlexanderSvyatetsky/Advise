@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="intro_fragment_title">Welcome to Advise!</string>
+    <string name="intro_fragment_body">App, where everybody can get or share any advise.</string>
+
+    <string name="screen_1_title">Article creation</string>
+    <string name="screen_1_body">To create a new article, click on the float button in the lower right corner.</string>
+
+    <string name="screen_2_title">Article creation</string>
+    <string name="screen_2_body">Enter your articles name and text,choose one or many mandatory tags and click on the  button in the upper right corner.</string>
+
+    <string name="screen_3_title">Comment creation</string>
+    <string name="screen_3_body">To see all comments, click on the comments image left under the text of the article.</string>
+
+    <string name="screen_4_title">Comment creation</string>
+    <string name="screen_4_body">To post a comment, type the comment text and click on the send button.</string>
+
+    <string name="screen_5_title">Notifications</string>
+    <string name="screen_5_body">To check your notifications, click on the "Notifications" in the navigation menu.</string>
+
+    <string name="screen_6_title">Notifications</string>
+    <string name="screen_6_body">To see the response, click on the notification message. To clear all notifications, click on the  button in the upper right corner.</string>
+
+    <string name="end_fragment_body">To sign in, enter your username and password, or sign up.</string>
+
+    <!--buttons name-->
+
+    <string name="next_button">Next</string>
+    <string name="prev_button">Prev</string>
+    <string name="skip_button">Skip</string>
+    <string name="sign_in_sign_up">Sign in/Sign up</string>
+
+
+</resources>

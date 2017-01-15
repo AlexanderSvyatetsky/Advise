@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_first_launch_margin"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/activity_first_launch_image_height_and_weight"
+        android:layout_height="@dimen/activity_first_launch_image_height_and_weight"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/login" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_first_launch_margin_top"
+        android:text="@string/end_fragment_body"
+        android:textSize="@dimen/string_size_body"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/sign_in_up_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_first_launch_margin_top"
+        android:text="@string/sign_in_sign_up" />
+
+
+</LinearLayout>

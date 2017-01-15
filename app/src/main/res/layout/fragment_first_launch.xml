@@ -1,26 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_first_launch_margin"
     android:orientation="vertical">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop" />
-
-    <Button
-        android:id="@+id/btn_skip"
+    <TextView
+        android:id="@+id/title"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:text="Skip" />
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@dimen/string_size_large_title"
+        tools:text="Article creation" />
 
-    <Button
+    <LinearLayout
+        android:id="@+id/screenshot_container"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@id/btn_skip"
-        android:text="Next" />
+        android:layout_height="0dp"
+        android:layout_weight="8">
 
-</RelativeLayout>
+        <ImageView
+            android:id="@+id/screenshot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            tools:src="@drawable/screen_1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/body"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/activity_first_launch_margin_top"
+        android:layout_weight="2"
+        android:padding="@dimen/activity_first_launch_padding"
+        android:textSize="@dimen/string_size_body"
+        tools:text="To create a new article, click on the float button in the lower right corner." />
+
+
+</LinearLayout>
